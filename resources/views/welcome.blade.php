@@ -213,36 +213,82 @@
 
 
         <!-- About Section -->
-        <section id="about" class="py-5">
-            <div class="container py-5">
-                <div class="row align-items-center">
-                    <!-- Profile Image Box -->
-                    <div class="col-md-5 mb-4 mb-md-0 text-center reveal">
-                        <img src="{{ asset('images/profile.png') }}"
-                            alt="John Paul S. Saunar"
-                            class="profile-box">
-                    </div>
-                    <!-- Text Content -->
-                    <div class="col-md-7 ps-md-5 reveal">
-                        <h2 class="fw-bold mb-3">About <span class="text-crimson">Me</span></h2>
-                        <h5 class="opacity-80 mb-5  ">HI, I'M JOHN PAUL S. SAUNAR</h5>
-                        <p class="lead opacity-75">
-                            A 3rd Year Bachelor of Science in Information Systems student at Camarines Sur Polytechnic Colleges. I enjoy learning about technology and developing my skills in web development and system design.
-                        </p>
-                        <p class="lead opacity-75">
-                            Outside of academics, I love watching anime, playing basketball, and spending my free time relaxing. I’m also known as a sleepy head among my friends. I enjoy exploring new ideas, improving my creativity, and balancing school life with my hobbies and interests.
-                        </p>
-                    
-                        <div class="row mt-4">
-                            <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Laravel</span></div>
-                            <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">MySQL</span></div>
-                            <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Bootstrap</span></div>
-                            <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Cloudflare</span></div>
-                        </div>
-                    </div>
+  <section id="about" class="py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <!-- Profile Image Box -->
+            <div class="col-md-5 mb-4 mb-md-0 text-center reveal">
+                <img src="{{ asset('images/profile.png') }}" alt="John Paul S. Saunar" class="profile-box">
+            </div>
+            <!-- Text Content -->
+            <div class="col-md-7 ps-md-5 reveal">
+                <h2 class="fw-bold mb-3">About <span class="text-crimson">Me</span></h2>
+                <h5 class="opacity-80 mb-5">HI, I'M JOHN PAUL S. SAUNAR</h5>
+                <p class="lead opacity-75">
+                    A 3rd Year Bachelor of Science in Information Technology student at Camarines Sur Polytechnic Colleges. I enjoy learning about technology and developing my skills in web development and system design.
+                </p>
+                <p class="lead opacity-75">
+                    Outside of academics, I love watching anime, playing basketball, and spending my free time relaxing. I’m also known as a sleepy head among my friends. I enjoy exploring new ideas, improving my creativity, and balancing school life with my hobbies and interests.
+                </p>
+
+                <div class="row mt-4">
+                    <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Laravel</span></div>
+                    <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">MySQL</span></div>
+                    <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Bootstrap</span></div>
+                    <div class="col-6 col-md-3 mb-2"><span class="badge border border-danger text-crimson p-2 w-100">Cloudflare</span></div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- Educational Background Section -->
+        <div class="row mt-5 pt-5 reveal">
+            <div class="col-12 mb-4">
+                <h3 class="fw-bold">Educational <span class="text-crimson">Background</span></h3>
+                <hr class="w-25 text-crimson" style="height: 3px; opacity: 1;">
+            </div>
+
+            <!-- Tertiary Education -->
+            <div class="col-md-6 mb-4">
+                <div class="h-100 p-4 border-start border-danger border-4 shadow-sm bg-light-subtle">
+                    <h5 class="fw-bold text-crimson">Bachelor of Science in Information System</h5>
+                    <p class="mb-1 fw-semibold">Camarines Sur Polytechnic Colleges</p>
+                    <p class="text-muted small">2026 – Present</p>
+                    <p class="opacity-75">Currently a 3rd Year BSIS student focusing on web development, application systems, and modern technologies. Continuously improving skills in Laravel development, UI/UX design, and database management.</p>
+                </div>
+            </div>
+
+            <!-- Senior High -->
+            <div class="col-md-6 mb-4">
+                <div class="h-100 p-4 border-start border-danger border-4 shadow-sm bg-light-subtle">
+                    <h5 class="fw-bold text-crimson">Senior High School</h5>
+                    <p class="mb-1 fw-semibold">Polangui General Comprehensive High School</p>
+                    <p class="text-muted small">2021 – 2023</p>
+                    <p class="opacity-75">Completed Senior High School under the TVL Strand – Automotive Servicing, developing technical skills, discipline, and hands-on experience in automotive fundamentals and servicing.</p>
+                </div>
+            </div>
+
+            <!-- Junior High -->
+            <div class="col-md-6 mb-4">
+                <div class="h-100 p-4 border-start border-danger border-4 shadow-sm bg-light-subtle">
+                    <h5 class="fw-bold text-crimson">Junior High School</h5>
+                    <p class="mb-1 fw-semibold">Polangui General Comprehensive High School</p>
+                    <p class="text-muted small">2020 – 2021</p>
+                    <p class="opacity-75">Successfully completed Junior High School and developed interests in technology, creativity, and teamwork.</p>
+                </div>
+            </div>
+
+            <!-- Elementary -->
+            <div class="col-md-6 mb-4">
+                <div class="h-100 p-4 border-start border-danger border-4 shadow-sm bg-light-subtle">
+                    <h5 class="fw-bold text-crimson">Elementary</h5>
+                    <p class="mb-1 fw-semibold">Sugcad Elementary School</p>
+                    <p class="text-muted small">2016 – 2017</p>
+                    <p class="opacity-75">Completed elementary education and built foundational academic and personal development skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Projects Section -->
     <section id="projects" class="py-5">
