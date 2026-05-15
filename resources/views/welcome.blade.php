@@ -384,11 +384,11 @@
 
                     <!-- Facebook -->
                     <div class="col-md-4 mb-3">
-                <div class="d-flex align-items-center justify-content-center">
-                    <i class="fab fa-facebook me-2 text-white fs-6"></i>
-                    <a href="https://facebook.com/paul.saunar" target="_blank" class="fs-6 text-white text-decoration-none">Paul Saunar</a>
-                </div>
-            </div>
+    <div class="d-flex align-items-center justify-content-center">
+        <i class="fab fa-facebook me-2 fs-6"></i>
+        <a href="https://facebook.com/paul.saunar" target="_blank" class="fs-6 text-reset text-decoration-none">Paul Saunar</a>
+    </div>
+</div>
 
 
                 <hr class="bg-light opacity-25">
