@@ -360,8 +360,6 @@
         </div>
     </section>
 
-        <!-- Footer -->
-    <!-- Contact & Footer Section -->
     <!-- Contact & Footer Section -->
         <footer id="contact" class="text-white py-5" style="background-color: var(--cspc-blue);">
             <div class="container text-center">
@@ -371,7 +369,6 @@
                     <!-- Phone Number -->
                     <div class="col-md-4 mb-3">
                         <div class="d-flex align-items-center justify-content-center">
-                            <!-- Icon color changed to text-white and size to fs-6 -->
                             <i class="fas fa-phone-alt me-2 text-white fs-6"></i>
                             <span class="fs-6">+63 912 345 6789</span>
                         </div>
@@ -379,7 +376,6 @@
                     <!-- Gmail -->
                     <div class="col-md-4 mb-3">
                         <div class="d-flex align-items-center justify-content-center">
-                            <!-- Icon color changed to text-white and size to fs-6 -->
                             <i class="fas fa-envelope me-2 text-white fs-6"></i>
                             <span class="fs-6">johnpaul.saunar@gmail.com</span>
                         </div>
@@ -388,13 +384,11 @@
 
                     <!-- Facebook -->
                     <div class="col-md-4 mb-3">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <!-- Icon color changed to text-white and size to fs-6 -->
-                            <i class="fab fa-facebook me-2 text-white fs-6"></i>
-                            <span href="https://facebook.com/paul.saunar" target="_blank" class="fs-6">Paul Saunar</span>
-                        </div>
-                    </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="fab fa-facebook me-2 text-white fs-6"></i>
+                    <a href="https://facebook.com/paul.saunar" target="_blank" class="fs-6 text-white text-decoration-none">Paul Saunar</a>
                 </div>
+            </div>
 
 
                 <hr class="bg-light opacity-25">
